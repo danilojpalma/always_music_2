@@ -1,4 +1,4 @@
-# Proyecto API de gestión de estudiantes
+# Proyecto API para gestión de estudiantes
 
 Este proyecto es una API REST que permite el manejo de estudiantes en una base de datos PostgreSQL. La API es construida con Node.js y Express, y utiliza el paquete `pg` para la conexión a la base de datos.
 
@@ -63,22 +63,29 @@ DB_DATABASE = always_music
 ```bash
 npm run dev
 ```
-La API se ejecutará en el puerto 3000 de la computadora (`http://localhost:3000`).
+La API se ejecutará en el puerto 3000 (`http://localhost:3000`).
 
 ## Cómo usarlo
 
 Para utilizar la API, se debe realizar una solicitud HTTP a la ruta correspondiente a la funcionalidad deseada. A continuación, se detallan las rutas y los métodos HTTP que se deben utilizar:
 
 - `GET /`: Muestra un mensaje de bienvenida.
+
 - `GET /agregar?nombre=<nombre>&rut=<rut>&curso=<curso>&nivel=<nivel>`: Agrega un nuevo estudiante con la información proporcionada en la consulta.
+
 ![imagen agregar](https://onedrive.live.com/embed?resid=EBD9E1806310E978%21101843&authkey=%21AMKjKZ4NqPvJ6EI&width=1528&height=482)
+
 - `GET /consultarRut?rut=<rut>`: Consulta un estudiante por su RUT y devuelve su información en formato JSON.
 ![imagen consultar por rut](https://onedrive.live.com/embed?resid=EBD9E1806310E978%21101845&authkey=%21ALgT0pHGzfGVNeg&width=1528&height=436)
 - `GET /consultarTodos`: Consulta todos los estudiantes registrados y devuelve su información en formato JSON.
+
 ![imagen consultar todos los registros](https://onedrive.live.com/embed?resid=EBD9E1806310E978%21101847&authkey=%21APVzHyYqLjW1f6A&width=1531&height=557)
+
 - `GET /actualizar?rutActual=<rut_actual>&nuevoNombre=<nombre_nuevo>&nuevoRut=<rut_nuevo>&nuevoCurso=<curso_nuevo>&nuevoNivel=<nivel_nuevo>`: Actualiza la información de un estudiante por su RUT.
+
 ![imagen actualizar por rut](https://onedrive.live.com/embed?resid=EBD9E1806310E978%21101849&authkey=%21ANKYXHfElEshVfo&width=1024)
 - `GET /eliminar?rut=<rut>`: Elimina un estudiante por su RUT.
+
 ![imagen eliminar por rut](https://onedrive.live.com/embed?resid=EBD9E1806310E978%21101851&authkey=%21AOSMeybSzlYPmcc&width=1532&height=468)
 
 Se recomienda utilizar una herramienta como [Thunder Client](https://www.thunderclient.com/) o [Postman](https://www.postman.com/) para realizar las solicitudes HTTP de manera más sencilla y visualizar los resultados.
