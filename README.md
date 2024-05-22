@@ -76,6 +76,7 @@ Para utilizar la API, se debe realizar una solicitud HTTP a la ruta correspondie
 ![imagen agregar](https://onedrive.live.com/embed?resid=EBD9E1806310E978%21101843&authkey=%21AMKjKZ4NqPvJ6EI&width=1528&height=482)
 
 - `GET /consultarRut?rut=<rut>`: Consulta un estudiante por su RUT y devuelve su información en formato JSON.
+
 ![imagen consultar por rut](https://onedrive.live.com/embed?resid=EBD9E1806310E978%21101845&authkey=%21ALgT0pHGzfGVNeg&width=1528&height=436)
 - `GET /consultarTodos`: Consulta todos los estudiantes registrados y devuelve su información en formato JSON.
 
@@ -94,7 +95,7 @@ Se recomienda utilizar una herramienta como [Thunder Client](https://www.thunder
 
 El código fuente de la API se encuentra en el siguiente repositorio de GitHub:
 
-[https://github.com/danilojpalma/always_music_2](https://github.com/danilojpalma/always_music_2>)
+[https://github.com/danilojpalma/always_music_2](https://github.com/danilojpalma/always_music_2)
 
 En el repositorio, se pueden encontrar los archivos de configuración de la base de datos (`db.js`), las consultas a la base de datos (`queries.js`) y las rutas de la API (`index.js`).
 
