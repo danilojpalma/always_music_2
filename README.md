@@ -26,11 +26,11 @@ Para instalar la API, se deben seguir los siguientes pasos:
 
 1. Clonar el repositorio de GitHub en la computadora.
 ```bash
-git clone https://github.com/<tu_usuario_de_github>/<nombre_del_repositorio>.git
-```
+git clone https://github.com/danilojpalma/always_music_2.git
+
 2. Acceder al directorio del repositorio.
 ```bash
-cd <nombre_del_repositorio>
+cd always-music 2>
 ```
 3. Instalar las dependencias del proyecto.
 ```bash
