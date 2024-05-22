@@ -1,4 +1,4 @@
-# Proyecto de Manejo de Estudiantes
+# Proyecto API de gestión de estudiantes
 
 Este proyecto es una API REST que permite el manejo de estudiantes en una base de datos PostgreSQL. La API es construida con Node.js y Express, y utiliza el paquete `pg` para la conexión a la base de datos.
 
@@ -24,13 +24,13 @@ Para poder ejecutar la API, se deben cumplir los siguientes prerrequisitos:
 
 Para instalar la API, se deben seguir los siguientes pasos:
 
-1. Clonar el repositorio de GitHub en la computadora.
+1. Clonar el repositorio
 ```bash
 git clone https://github.com/danilojpalma/always_music_2.git
 ```
 2. Acceder al directorio del repositorio.
 ```bash
-cd always-music-2>
+cd always-music-2
 ```
 3. Instalar las dependencias del proyecto.
 ```bash
